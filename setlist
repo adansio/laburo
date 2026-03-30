@@ -49,8 +49,8 @@
         <mxCell id="PWQApgJFRIoXOc8UycvT-30" parent="PWQApgJFRIoXOc8UycvT-5" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;10.10.10.0/23&lt;/font&gt;" vertex="1">
           <mxGeometry height="8" width="46" x="-190" y="139" as="geometry" />
         </mxCell>
-        <mxCell id="PWQApgJFRIoXOc8UycvT-7" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;fillColor=#F58534;gradientColor=none;" value="" vertex="1">
-          <mxGeometry height="40" width="39" x="410" y="50" as="geometry" />
+        <mxCell id="PWQApgJFRIoXOc8UycvT-7" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;fillColor=#F58534;gradientColor=none;" value="Internet gw&lt;br&gt;Publicación&amp;nbsp;&lt;br&gt;de servicios&amp;nbsp;&lt;br&gt;a internet" vertex="1">
+          <mxGeometry height="40" width="39" x="420" y="50" as="geometry" />
         </mxCell>
         <mxCell id="PWQApgJFRIoXOc8UycvT-9" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#00A4A6;fillColor=#E6F6F7;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" value="&lt;div&gt;App-privN&lt;/div&gt;" vertex="1">
           <mxGeometry height="150" width="120" x="150" y="80" as="geometry" />
@@ -67,8 +67,8 @@
         <mxCell id="PWQApgJFRIoXOc8UycvT-20" parent="PWQApgJFRIoXOc8UycvT-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;10.10.20.0/22&lt;/font&gt;" vertex="1">
           <mxGeometry height="8" width="46" x="70" y="137" as="geometry" />
         </mxCell>
-        <mxCell id="PWQApgJFRIoXOc8UycvT-10" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_nat_gateway;fillColor=#F58534;gradientColor=none;" value="" vertex="1">
-          <mxGeometry height="52" width="49" x="110.5" y="240" as="geometry" />
+        <mxCell id="PWQApgJFRIoXOc8UycvT-10" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_nat_gateway;fillColor=#F58534;gradientColor=none;" value="NAT GW&lt;br&gt;acceso internet&amp;nbsp;&lt;br&gt;solo salida" vertex="1">
+          <mxGeometry height="52" width="49" x="60" y="310" as="geometry" />
         </mxCell>
         <mxCell id="PWQApgJFRIoXOc8UycvT-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;BD, RDS&lt;/font&gt;, ..." vertex="1">
           <mxGeometry height="18" width="60.5" x="77.5" y="99" as="geometry" />
@@ -81,6 +81,9 @@
         </mxCell>
         <mxCell id="PWQApgJFRIoXOc8UycvT-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" value="&lt;p&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;EKS pods use secondary CIDR&lt;/font&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="20" width="99" x="106" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="PWQApgJFRIoXOc8UycvT-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.-" vertex="1">
+          <mxGeometry height="30" width="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
